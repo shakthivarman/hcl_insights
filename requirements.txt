@@ -1,0 +1,24 @@
+# Core web framework
+streamlit>=1.28.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Database
+pymongo>=4.5.0
+
+# Machine Learning and Embeddings
+sentence-transformers>=2.2.2
+torch>=2.0.0
+transformers>=4.30.0
+
+# Google Gemini API
+google-genai
+
+# Additional dependencies for sentence-transformers
+numpy>=1.21.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Optional: For better performance
+accelerate>=0.20.0
