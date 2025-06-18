@@ -116,7 +116,7 @@ Answer:"""
 
 def main():
     st.title("YUBI Semantic Search")
-    st.write("Ask questions about HCL Tech Healthineers documents using semantic search")
+    st.write("Ask questions about yubi company information using semantic search")
 
     # Initialize components
     collection = init_mongodb()
