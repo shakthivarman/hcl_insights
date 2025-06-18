@@ -115,7 +115,7 @@ Answer:"""
         return "Failed to generate response"
 
 def main():
-    st.title("HCL Tech Semantic Search")
+    st.title("YUBI Semantic Search")
     st.write("Ask questions about HCL Tech Healthineers documents using semantic search")
 
     # Initialize components
