@@ -14,8 +14,8 @@ load_dotenv()
 def init_mongodb():
     try:
         client = MongoClient(os.getenv("MONGODB_URI"))
-        db = client[os.getenv("DB_NAME", "hcl")]
-        collection = db[os.getenv("COLLECTION_NAME", "hcl-web")]
+        db = client[os.getenv("DB_NAME", "yubi")]
+        collection = db[os.getenv("COLLECTION_NAME", "yubi-web")]
         return collection
     except Exception as e:
         st.error(f"Failed to connect to MongoDB: {str(e)}")
